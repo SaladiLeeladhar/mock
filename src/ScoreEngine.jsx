@@ -30,7 +30,7 @@ function ScoreEngine() {
       ? "Wicket !"
       : page % 2 === 0
       ? "Runs :" + (page % 10) / 2
-      : "Dot Boll!!";
+      : "Dot Boll!";
 
   return (
     <div className="bg-white border border-green-200 rounded-xl shadow p-6 w-full max-w-md">
